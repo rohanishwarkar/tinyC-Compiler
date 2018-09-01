@@ -1,0 +1,14 @@
+/* 
+	Name:- Ishwarkar Rohan Shankar
+	Roll No:- 16CS30012
+	Assignment 3 Compilers Lab
+	Autumn Semester 2018
+*/
+
+make 
+
+// for running on test file
+make test
+
+// for deleting the files
+make clean
