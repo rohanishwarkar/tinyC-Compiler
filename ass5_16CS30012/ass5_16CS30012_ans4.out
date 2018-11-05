@@ -1,0 +1,83 @@
+Congratulations! Program parsed successfully!
+ NAME                                               TYPE   INITIAL VALUE  SIZE  OFFSET      NEXT TABLE
+
+GlobalTable
+    f                                                int            NULL     0       0  0x559f839bb1c0
+    g                                             double            NULL     0       0  0x559f839bf4c0
+    h                                               void            NULL     0       0  0x559f839c38b0
+ func                                                int            NULL     0       0  0x559f839c8480
+ main                                                int            NULL     0       0  0x559f839ccba0
+
+f Function
+
+g Function
+    a                                                int               0     4       0            null 
+
+h Function
+    a                                                int               0     4       0            null 
+    d                                             double        0.000000     8       4            null 
+    s                                                int               0     4      12            null 
+    c                                               char                     1      16            null 
+    t                                               char                     1      17            null 
+    x                                               char                     1      18            null 
+   t0                                               char                     0      19            null 
+
+func Function
+    x                                                int               0     4       0            null 
+    c                                                int               0     4       4            null 
+   t1                                                int               0     4       8            null 
+
+main Function
+    a                                                int               0     4       0            null 
+    b                                                int               0     4       4            null 
+    e                                       array(2,int)                0    8       8            null 
+   t2                                                int               2     4      16            null 
+    d                                             double        2.200000     8      20            null 
+   t3                                             double        2.200000     8      28            null 
+    c                                               char                     1      36            null 
+   t4                                               char                     0      37            null 
+   t5                                               char                     0      37            null 
+   t6                                                int               1     4      37            null 
+   t7                                                int               0     4      41            null 
+   t8                                                int               0     4      45            null 
+   t9                                               char                     0      49            null 
+  t10                                               char                     0      49            null 
+  t11                                               char                     0      49            null 
+  t12                                               char                     0      49            null 
+  t13                                               char                     0      49            null 
+  t14                                                int               0     4      49            null 
+
+
+quads
+ 0     t0 	=	     c     +     t
+ 1      x 	=	    t0            
+ 2     t1 	=	     x     +     c
+ 3  return  t1
+ 4     t2 	=	     2            
+ 5     t3 	=	 2.200000            
+ 6      d 	=	    t3            
+ 7     t4 	=	  call     f,    0
+ 8      a 	=	    t4            
+ 9  param   a
+10  param   d
+11   call     h,    2
+12  param   a
+13     t5 	=	  call     g,    1
+14      b 	=	    t5            
+15     t6 	=	     1            
+16     t7 	=	    t6     *     4
+17     t8 	=	     e[t7]
+18  param  t8
+19     t9 	=	  call     g,    1
+20      b 	=	    t9            
+21  param   b
+22    t10 	=	  call  func,    1
+23      a 	=	   t10            
+24  param   a
+25  param   b
+26    t11 	=	  call  func,    2
+27    t12 	=	  call     f,    0
+28    t13 	=	   t11     +   t12
+29      a 	=	   t13            
+30    t14 	=	     0            
+31  return t14

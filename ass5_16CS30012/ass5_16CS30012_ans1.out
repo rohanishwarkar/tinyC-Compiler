@@ -1,0 +1,85 @@
+Congratulations! Program parsed successfully!
+ NAME                                               TYPE   INITIAL VALUE  SIZE  OFFSET      NEXT TABLE
+
+GlobalTable
+    z                                                int            NULL     4       0           (nil)
+ main                                                int            NULL     0       0  0x556ddc15e2d0
+
+main Function
+    a                                                int               0     4       0            null 
+    b                                                int               0     4       4            null 
+    c                                               char             'a'     1       8            null 
+    i                                                int               9     4       9            null 
+   t0                                                int               9     4      13            null 
+    j                                                int               2     4      17            null 
+   t1                                                int               2     4      21            null 
+    x                                           ptr(int)            (nil)    4      25            null 
+    d                                                int               0     8      29            null 
+   t2                                             double        2.000000     8      37            null 
+    f                                             double        9.800000     8      45            null 
+   t3                                             double        9.800000     8      53            null 
+   t4                                               char             'a'     1      61            null 
+  str                                     array(20,char)         "vishal"   20      62            null 
+   t5                                                int              20     4      82            null 
+   t6                                               char        "vishal"     1      86            null 
+   t7                                                int               9     4      87            null 
+   t8                                           ptr(int)            (nil)    4      91            null 
+   t9                                                int               0     4      95            null 
+  t10                                                int               0     4      99            null 
+  t11                                                int               0     4     103            null 
+  t12                                                int               0     4     107            null 
+  t13                                                int               0     4     111            null 
+  t14                                               char                     0     115            null 
+  t15                                               char                     0     115            null 
+  t16                                               char                     0     115            null 
+  t17                                                int               0     4     115            null 
+  t18                                                int               0     4     119            null 
+  t19                                                int               0     4     123            null 
+  t20                                                int               0     4     127            null 
+
+
+quads
+ 0     t0 	=	     9            
+ 1      i 	=	    t0            
+ 2     t1 	=	     2            
+ 3      j 	=	    t1            
+ 4     t2 	=	 2.000000            
+ 5      d 	=	    t2            
+ 6     t3 	=	 9.800000            
+ 7      f 	=	    t3            
+ 8     t4 	=	   'a'            
+ 9      c 	=	    t4            
+10     t5 	=	    20            
+11     t6 	=	 "vishal"            
+12    str 	=	    t6            
+13     t7 	=	     i            
+14      i 	=	     i     +     1
+15      a 	=	    t7            
+16      j 	=	     j     +     1
+17      b 	=	     j            
+18     t8 	=	  &   a
+19      x 	=	    t8            
+20     t9 	=	  *   x
+21      b 	=	    t9            
+22    t10 	=	  +   a
+23      b 	=	   t10            
+24    t11 	=	  -   a
+25      b 	=	   t11            
+26    t12 	=	  ~   a
+27      b 	=	   t12            
+28    t13 	=	  !   a
+29      b 	=	   t13            
+30      b 	=	     d            
+31    t15 	=	     b     *     c
+32      a 	=	   t15            
+33    t16 	=	     b     /     c
+34      a 	=	   t16            
+35    t17 	=	     a     %     c
+36      b 	=	   t17            
+37    t18 	=	     a            
+38      a 	=	     a     +     1
+39      a 	=	     a     +     1
+40    t19 	=	   t18     +     a
+41      b 	=	   t19            
+42    t20 	=	     0            
+43  return t20

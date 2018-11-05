@@ -1,0 +1,93 @@
+Congratulations! Program parsed successfully!
+ NAME                                               TYPE   INITIAL VALUE  SIZE  OFFSET      NEXT TABLE
+
+GlobalTable
+ func                                             double            NULL     0       0  0x562c3b0a66c0
+ main                                                int            NULL     0       0  0x562c3b0ab500
+
+func Function
+    d                                             double        0.000000     8       0            null 
+    s                                                int               0     4       8            null 
+    c                                               char                     1      12            null 
+    a                                                int               2     4      13            null 
+    x                                             double        3.000000     8      17            null 
+   t0                                             double        2.300000     8      25            null 
+   t1                                               char             "7"     1      33            null 
+   t2                                                int               2     4      34            null 
+   t3                                             double        3.000000     8      38            null 
+
+main Function
+    a                                                int               0     4       0            null 
+    b                                                int               2     4       4            null 
+    c                                                int               1     4       8            null 
+    z                              array(2,array(3,int))                0   24      12            null 
+   t4                                                int               2     4      36            null 
+   t5                                                int               3     4      40            null 
+    w                                             double        0.000000     8      44            null 
+   t6                                                int               1     4      52            null 
+   t7                                                int               0     4      56            null 
+   t8                                                int               0     4      60            null 
+   t9                                               char                     0      64            null 
+  t10                                                int               0     4      64            null 
+  t11                                                int               2     4      68            null 
+  t12                                                int               3     4      72            null 
+  t13                                                int               0     4      76            null 
+  t14                                                int               0     4      80            null 
+  t15                                                int               1     4      84            null 
+  t16                                                int               0     4      88            null 
+  t17                                       array(3,int)                0   12      92            null 
+  t18                                                int               0     4     104            null 
+  t19                                                int               2     4     108            null 
+  t20                                                int               2     4     112            null 
+  t21                                                int               0     4     116            null 
+
+
+quads
+ 0     t0 	=	 2.300000            
+ 1      x 	=	    t0            
+ 2     t1 	=	   "7"            
+ 3     if     c ==  t1      goto    5
+ 4   goto   9
+ 5     t2 	=	     2            
+ 6      a 	=	    t2            
+ 7     t3 	=	 3.000000            
+ 8      x 	=	    t3            
+ 9  return   d
+10     t4 	=	     2            
+11     t5 	=	     3            
+12     if     a  >   c      goto   14
+13   goto  16
+14     t6 	=	     1            
+15   goto  19
+16     t7 	=	     0            
+17     t8 	=	    t7            
+18   goto  20
+19     t8 	=	    t6            
+20      b 	=	    t8            
+21  param   w
+22  param   b
+23     t9 	=	  call  func,    2
+24      w 	=	    t9            
+25    t10 	=	     0            
+26      a 	=	   t10            
+27    t11 	=	     2            
+28      b 	=	   t11            
+29    t12 	=	     3            
+30     if     a <= t12      goto   35
+31   goto  38
+32    t13 	=	     a            
+33      a 	=	     a     +     1
+34   goto  29
+35    t14 	=	     b     +     a
+36      a 	=	   t14            
+37   goto  32
+38    t15 	=	     1            
+39      c 	=	   t15            
+40    t16 	=	     a     *    12
+41    t17 	=	     z[t16]
+42    t18 	=	     b     *     4
+43    t19 	=	   t17[t18]
+44    t20 	=	     2            
+45    t19 	=	   t20            
+46    t21 	=	     0            
+47  return t21

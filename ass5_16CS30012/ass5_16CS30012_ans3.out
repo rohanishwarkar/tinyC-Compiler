@@ -1,0 +1,140 @@
+Congratulations! Program parsed successfully!
+ NAME                                               TYPE   INITIAL VALUE  SIZE  OFFSET      NEXT TABLE
+
+GlobalTable
+    d                           array(2,array(3,double))            NULL    48       0           (nil)
+   t0                                                int            NULL     4       0           (nil)
+   t1                                                int            NULL     4       0           (nil)
+    f                                                int            NULL     0       0  0x56220c930390
+ func                                               void            NULL     0       0  0x56220c934780
+ main                                                int            NULL     0       0  0x56220c938cc0
+
+f Function
+    a                                                int               0     4       0            null 
+
+func Function
+    c                                               char                     1       0            null 
+    a                                                int               0     4       1            null 
+
+main Function
+    a                              array(2,array(3,int))                0   24       0            null 
+   t2                                                int               2     4      24            null 
+   t3                                                int               3     4      28            null 
+    b                                                int               0     4      32            null 
+    c                                                int               0     4      36            null 
+    w                                       array(2,int)                0    8      40            null 
+   t4                                                int               2     4      48            null 
+    t                                       array(4,int)                0   16      52            null 
+   t5                                                int               4     4      68            null 
+    x           array(3,array(4,array(5,array(6,char))))                   360      72            null 
+   t6                                                int               3     4     432            null 
+   t7                                                int               4     4     436            null 
+   t8                                                int               5     4     440            null 
+   t9                                                int               6     4     444            null 
+    y                                               char                     1     448            null 
+    z                                               char             '2'     1     449            null 
+  t10                                               char             '2'     1     450            null 
+    s                                    array(2,double)         0.000000   16     451            null 
+  t11                                                int               2     4     467            null 
+  t12                                                int               0     4     471            null 
+  t13                                                int               0     4     475            null 
+  t14                                       array(3,int)                0   12     479            null 
+  t15                                                int               1     4     491            null 
+  t16                                                int               0     4     495            null 
+  t17                                                int               0     4     499            null 
+  t18                                                int               0     4     503            null 
+  t19                                                int               1     4     507            null 
+  t20                                                int               0     4     511            null 
+  t21                    array(4,array(5,array(6,char)))                   120     515            null 
+  t22                                                int               2     4     635            null 
+  t23                                                int               0     4     639            null 
+  t24                             array(5,array(6,char))                    30     643            null 
+  t25                                                int               3     4     673            null 
+  t26                                                int               0     4     677            null 
+  t27                                      array(6,char)                     6     681            null 
+  t28                                                int               4     4     687            null 
+  t29                                                int               0     4     691            null 
+  t30                                               char             '2'     1     695            null 
+  t31                                                int               1     4     696            null 
+  t32                                                int               0     4     700            null 
+  t33                                                int               0     4     704            null 
+  t34                                                int               2     4     708            null 
+  t35                                                int               0     4     712            null 
+  t36                                                int               0     4     716            null 
+  t37                                                int               1     4     720            null 
+  t38                                                int               0     4     724            null 
+  t39                                       array(3,int)                0   12     728            null 
+  t40                                                int               2     4     740            null 
+  t41                                                int               0     4     744            null 
+  t42                                                int               0     4     748            null 
+  t43                                                int               0     4     752            null 
+  t44                                                int               0     4     756            null 
+  t45                                                int               0     4     760            null 
+  t46                                                int               0     4     764            null 
+  t47                                               char                     0     768            null 
+  t48                                                int               0     4     768            null 
+  t49                                                int               0     4     772            null 
+  t50                                                int               0     4     776            null 
+
+
+quads
+ 0     t0 	=	     2            
+ 1     t1 	=	     3            
+ 2     t2 	=	     2            
+ 3     t3 	=	     3            
+ 4     t4 	=	     2            
+ 5     t5 	=	     4            
+ 6     t6 	=	     3            
+ 7     t7 	=	     4            
+ 8     t8 	=	     5            
+ 9     t9 	=	     6            
+10    t10 	=	   '2'            
+11      z 	=	   t10            
+12    t11 	=	     2            
+13    t12 	=	     0            
+14    t13 	=	   t12     *    12
+15    t14 	=	     a[t13]
+16    t15 	=	     1            
+17    t16 	=	   t15     *     4
+18    t17 	=	   t14[t16]
+19    t18 	=	   t17     +     c
+20      b 	=	   t18            
+21    t19 	=	     1            
+22    t20 	=	   t19     *   120
+23    t21 	=	     x[t20]
+24    t22 	=	     2            
+25    t23 	=	   t22     *    30
+26    t24 	=	   t21[t23]
+27    t25 	=	     3            
+28    t26 	=	   t25     *     6
+29    t27 	=	   t24[t26]
+30    t28 	=	     4            
+31    t29 	=	   t28     *     1
+32    t30 	=	   t27[t29]
+33    t30 	=	     z            
+34    t31 	=	     1            
+35    t32 	=	   t31     *     4
+36    t33 	=	     w[t32]
+37    t34 	=	     2            
+38    t35 	=	   t34     *     4
+39    t36 	=	     t[t35]
+40    t37 	=	     1            
+41    t38 	=	   t37     *    12
+42    t39 	=	     a[t38]
+43    t40 	=	     2            
+44    t41 	=	   t40     *     4
+45    t42 	=	   t39[t41]
+46    t43 	=	   t36     +   t42
+47    t33 	=	   t43            
+48    t44 	=	     0            
+49    t45 	=	   t44     *     4
+50    t46 	=	     w[t45]
+51  param t46
+52    t47 	=	  call     f,    1
+53      b 	=	   t47            
+54  param   z
+55   call  func,    1
+56    t48 	=	     0            
+57    t49 	=	   t48     *     4
+58    t50 	=	     t[t49]
+59  return t50

@@ -1,0 +1,9 @@
+Name : Ishwarkar Rohan Shankar
+Roll No. 16CS30012
+Compilers Assignment 6
+
+Limitations:
+------------
+1. Variables must not start with t as we have used compiler generated temporaries starting with t while generating 	    the 3-address codes
+2. Array of characters not supported. 
+3. Type conversion is not supported.

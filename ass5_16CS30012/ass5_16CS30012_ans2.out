@@ -1,0 +1,123 @@
+Congratulations! Program parsed successfully!
+ NAME                                               TYPE   INITIAL VALUE  SIZE  OFFSET      NEXT TABLE
+
+GlobalTable
+ main                                                int            NULL     0       0  0x562a12efe1c0
+
+main Function
+    a                                                int               3     4       0            null 
+    b                                                int               0     4       4            null 
+    c                                                int               0     4       8            null 
+    i                                                int               3     4      12            null 
+    j                                                int               0     4      16            null 
+   t0                                                int               2     4      20            null 
+   t1                                                int               0     4      24            null 
+   t2                                                int               0     4      28            null 
+   t3                                                int               2     4      32            null 
+   t4                                                int               0     4      36            null 
+   t5                                                int               0     4      40            null 
+   t6                                                int               0     4      44            null 
+   t7                                                int               2     4      48            null 
+   t8                                                int               0     4      52            null 
+   t9                                                int               2     4      56            null 
+  t10                                                int               0     4      60            null 
+  t11                                                int               2     4      64            null 
+  t12                                                int               0     4      68            null 
+  t13                                                int               0     4      72            null 
+  t14                                                int               0     4      76            null 
+  t15                                                int               2     4      80            null 
+  t16                                                int               2     4      84            null 
+  t17                                                int               2     4      88            null 
+  t18                                                int               0     4      92            null 
+  t19                                                int               2     4      96            null 
+  t20                                                int               3     4     100            null 
+  t21                                                int               4     4     104            null 
+  t22                                                int               3     4     108            null 
+  t23                                                int               0     4     112            null 
+  t24                                                int               2     4     116            null 
+  t25                                                int               0     4     120            null 
+  t26                                                int               3     4     124            null 
+
+
+quads
+ 0     t0 	=	     2            
+ 1     if     a  >  t0      goto    3
+ 2   goto   6
+ 3     t1 	=	     0            
+ 4      a 	=	    t1            
+ 5   goto   8
+ 6     t2 	=	     b     +     c
+ 7      a 	=	    t2            
+ 8     t3 	=	     2            
+ 9     if     a ==  t3      goto   11
+10   goto  13
+11     t4 	=	     c     +     i
+12      b 	=	    t4            
+13     t5 	=	     c     *     j
+14      b 	=	    t5            
+15     t6 	=	     c            
+16      c 	=	     c     +     1
+17      c 	=	     c     +     1
+18     t7 	=	     2            
+19     if     i <=  t7      goto   15
+20   goto  21
+21     t8 	=	     0            
+22      i 	=	    t8            
+23     t9 	=	     2            
+24     if     i  >  t9      goto   29
+25   goto  38
+26    t10 	=	     i            
+27      i 	=	     i     +     1
+28   goto  23
+29    t11 	=	     2            
+30     if     j == t11      goto   32
+31   goto  35
+32    t12 	=	     a            
+33      a 	=	     a     +     1
+34   goto  26
+35    t13 	=	     a            
+36      a 	=	     a     -     1
+37   goto  26
+38    t14 	=	     0            
+39      i 	=	   t14            
+40   goto  42
+41   goto  40
+42    t15 	=	     2            
+43      a 	=	   t15            
+44   goto  41
+45    t16 	=	     2            
+46     if     i != t16      goto   49
+47   goto  52
+48   goto  45
+49    t17 	=	     2            
+50      a 	=	   t17            
+51   goto  48
+52   goto  56
+53    t18 	=	     i            
+54      i 	=	     i     +     1
+55   goto  52
+56    t19 	=	     2            
+57      a 	=	   t19            
+58   goto  53
+59   goto  61
+60   goto  59
+61    t20 	=	     3            
+62      a 	=	   t20            
+63   goto  60
+64    t21 	=	     4            
+65     if   t21 ==   0      goto   70
+66   goto  67
+67    t22 	=	     3            
+68      a 	=	   t22            
+69   goto  64
+70    t23 	=	     0            
+71      i 	=	   t23            
+72    t24 	=	     2            
+73     if   t24 ==   0      goto   81
+74   goto  78
+75    t25 	=	     i            
+76      i 	=	     i     +     1
+77   goto  72
+78    t26 	=	     3            
+79      i 	=	   t26            
+80   goto  75
